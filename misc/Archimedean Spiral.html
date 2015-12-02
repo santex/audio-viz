@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Archimedean Spiral</title>
+    <script type="text/javascript" src="http://d3js.org/d3.v2.js"></script>
+    <style>
+      body {
+        font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+        margin: 40px;
+      }
+      .axis path {
+        fill: none;
+        stroke: #999;
+        stroke-dasharray: 2 3;
+      }
+      .axis text {
+        font-size: 13px;
+        stroke: #222;
+      }
+      text.title {
+        font-size: 24px;
+      }
+      circle.tick { 
+        fill: #f3f3f3;
+        stroke: #999;
+        stroke-dasharray: 2 3;
+      }
+      path.spiral {
+        fill: none;
+        stroke: #ee8d18;
+        stroke-width: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart"></div>
+    <script type="text/javascript" src="spiral.js"></script>
+  </body>
+</html>
